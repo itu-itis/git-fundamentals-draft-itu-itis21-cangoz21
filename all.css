@@ -3,6 +3,11 @@ h1 {
 	font-size: 24 pt;
 	text-decoration: underline;
 	font-family: Tahoma, Helvetica, sans-serif;
+	text-align: center;
+	border: thick solid red;
+	text-decoration: none;
+	padding: 1ex
+	width: 50%
 }
 
 em {
@@ -16,4 +21,18 @@ em {
 ul {
 	list-style-type: square;
 }
+a:hover {
+	text decoration: none;
+}
+li:first-child {
+	border: thick solid green;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding: 1ex; 
+	width: 40%
+}
 
+p {
+	text-align: center;
+	width: 50%;
+}
